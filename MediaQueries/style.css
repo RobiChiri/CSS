@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	margin: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+}
+
+.card {
+	height: 400px;
+	width: 250px;
+	background-color: lightgray;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.head {
+	margin: 5px;
+	display: flex;
+	align-items: center;
+}
+
+.icon {
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	margin: 1px;
+	background-color: white;
+}
+
+.user-date {
+	width: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-left: 5px;
+	margin-right: 40px;
+}
+
+h2 {
+	font-size: 15px;
+	font-weight: 300;
+}
+
+h3 {
+	font-size: 13px;
+	color: white;
+	font-weight: 200;
+}
+
+picture img {
+	width: 250px;
+	height: 200px;
+}
+
+.svg-button img {
+	height: 30px;
+	width: 30px;
+}
+
+.svg-button {
+	border: none;
+	background-color: lightgrey;
+}
+
+.like-and-message {
+	margin: 10px;
+}
+
+.post {
+	margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+	main {
+		flex-wrap: wrap;
+	}
+}
