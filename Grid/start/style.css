@@ -1,12 +1,10 @@
 body {
 	padding: 10px;
-  font-weight: bold;
 }
 
-
 #calculator {
-	height: 300px;
-	width: 350px;
+	height: 400px;
+	width: 400px;
 	background-color: rgb(159, 159, 241);
 	display: grid;
 	border-radius: 10px;
@@ -52,4 +50,32 @@ body {
 	grid-area: 3 / 4 / 7 / 5;
 	background-color: rgb(226, 107, 107);
 	border-radius: 0 0 10px 0;
+}
+
+#result,
+#operators div,
+#numbers div,
+#equal {
+	position: relative;
+}
+
+#result h3,
+#operators div h3,
+#numbers div h3,
+#equal h3 {
+	position: absolute;
+}
+
+#operators div h3,
+#numbers div h3 {
+	left: 40%;
+}
+
+#result h3 {
+	left: 90%;
+}
+
+#equal h3 {
+	top: 40%;
+	left: 40%;
 }
